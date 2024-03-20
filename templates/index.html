@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My First Webpage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+
+    input[type="submit"] {
+      background-color: #ff4081;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #ff669a;
+    }
+  </style>
+</head>
+<body>
+  <!-- index.html -->
+  <form method="post">
+    <label for="disbursed_amount">Disbursed Amount:</label>
+    <input type="text" id="disbursed_amount" name="disbursed_amount">
+
+    <label for="asset_cost">Asset Cost:</label>
+    <input type="text" id="asset_cost" name="asset_cost">
+
+    <label for="Employment_Type">Employment Type:</label>
+    <input type="text" id="Employment_Type" name="Employment_Type">
+
+    <label for="aadhar_flag">Aadhar:</label>
+    <input type="text" id="aadhar_flag" name="aadhar_flag">
+
+    <label for="pan_flag">Pan:</label>
+    <input type="text" id="pan_flag" name="pan_flag">
+
+    <label for="perform_cns_score">Credit Score:</label>
+    <input type="text" id="perform_cns_score" name="perform_cns_score">
+
+    <label for="NEW_ACCTS_IN_LAST_SIX_MONTHS">New Accounts in last six months:</label>
+    <input type="text" id="NEW_ACCTS_IN_LAST_SIX_MONTHS" name="NEW_ACCTS_IN_LAST_SIX_MONTHS">
+
+    <label for="DELINQUENT_ACCTS_IN_LAST_SIX_MONTHS">Delinquent Accounts in last six months:</label>
+    <input type="text" id="DELINQUENT_ACCTS_IN_LAST_SIX_MONTHS" name="DELINQUENT_ACCTS_IN_LAST_SIX_MONTHS">
+
+    <label for="NO_OF_INQUIRIES">Number of Inquiries:</label>
+    <input type="text" id="NO_OF_INQUIRIES" name="NO_OF_INQUIRIES">
+
+    <label for="new_pri_installment">New Primary Installment:</label>
+    <input type="text" id="new_pri_installment" name="new_pri_installment">
+
+    <label for="age">Age:</label>
+    <input type="text" id="age" name="age">
+
+    <label for="AVERAGE_ACCT_AGE">Average Account Age:</label>
+    <input type="text" id="AVERAGE_ACCT_AGE" name="AVERAGE_ACCT_AGE">
+
+    <label for="Credit_History_Length_Months">Credit History Length:</label>
+    <input type="text" id="Credit_History_Length_Months" name="Credit_History_Length_Months">
+
+    <label for="Number_of_0">Number of 0s:</label>
+    <input type="text" id="Number_of_0" name="Number_of_0">
+
+    <label for="Loan_to_Asset_Ratio">Loan to Asset Ratio:</label>
+    <input type="text" id="Loan_to_Asset_Ratio" name="Loan_to_Asset_Ratio">
+
+    <label for="No_of_Accts">Number of Accounts</label>
+    <input type="text" id="No_of_Accts" name="No_of_Accts">
+
+    <label for="Tot_Inactive_Accts">Total Inactive Accounts:</label>
+    <input type="text" id="Tot_Inactive_Accts" name="Tot_Inactive_Accts">
+
+    <label for="Tot_Overdue_Accts">Total Overdue Accounts:</label>
+    <input type="text" id="Tot_Overdue_Accts" name="Tot_Overdue_Accts">
+
+    <label for="Tot_Current_Balance">Total Current Balance:</label>
+    <input type="text" id="Tot_Current_Balance" name="Tot_Current_Balance">
+
+    <label for="Tot_Sanctioned_Amount">Total Sanctioned Amount:</label>
+    <input type="text" id="Tot_Sanctioned_Amount" name="Tot_Sanctioned_Amount">
+
+    <label for="Tot_Disbursed_Amount">Total Disbursed Amount:</label>
+    <input type="text" id="Tot_Disbursed_Amount" name="Tot_Disbursed_Amount">
+
+    <label for="Tot_Installment">Total Installment:</label>
+    <input type="text" id="Tot_Installment" name="Tot_Installment">
+
+    <label for="Bal_Disburse_Ratio">Balance Disbursed Ratio:</label>
+    <input type="text" id="Bal_Disburse_Ratio" name="Bal_Disburse_Ratio">
+
+    <label for="Pri_Tenure">Primary Tenure:</label>
+    <input type="text" id="Pri_Tenure" name="Pri_Tenure">
+
+    <label for="Sec_Tenure">Secondary Tenure:</label>
+    <input type="text" id="Sec_Tenure" name="Sec_Tenure">
+
+    <label for="Disburse_to_Sactioned_Ratio">Disbursed to Sanctioned Ratio:</label>
+    <input type="text" id="Disburse_to_Sactioned_Ratio" name="Disburse_to_Sactioned_Ratio">
+
+    <label for="Active_to_Inactive_Acct_Ratio">Active to Inactive Account Ratio:</label>
+    <input type="text" id="Active_to_Inactive_Acct_Ratio" name="Active_to_Inactive_Acct_Ratio">
+
+    <label for="Credit_Risk_Label">Credit Risk Label:</label>
+    <input type="text" id="Credit_Risk_Label" name="Credit_Risk_Label">
+
+    <label for="Sub_Risk_Label">Sub Risk Label:</label>
+    <input type="text" id="Sub_Risk_Label" name="Sub_Risk_Label">
+
+
+
+
+    <input type="submit" value="Predict">
+  </form>
+</body>
+</html>
